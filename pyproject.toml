@@ -4,7 +4,7 @@ requires = [
     "setuptools",
 ]
 [project]
-name = "FANGS-UNFOLD"
+name = "fangs-unfolding"
 version = "0.0.1-dev"
 description = "Forward, Adjoint, and Neutron Noise General Solver with Unfolding Capabilities"
 license = "BSD-3-Clause"
