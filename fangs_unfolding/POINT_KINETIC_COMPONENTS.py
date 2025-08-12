@@ -22,15 +22,15 @@ from SOLVERFACTORY import SolverFactory
 original_sys_path = sys.path.copy()
 sys.path.append('../')
 
-#from TESTS.OBJECTIVES3_TEST01_2DMG_BIBLIS_AVS import *
-#from TESTS.OBJECTIVES3_TEST02_2DMG_BIBLIS_FAV import *
-#from TESTS.OBJECTIVES3_TEST03_2DTriMG_HTTR2G_AVS import *
-#from TESTS.OBJECTIVES3_TEST04_2DTriMG_HTTR2G_FAV import *
-#from TESTS.OBJECTIVES3_TEST05_3DMG_CSTest09_AVS import *
-#from TESTS.OBJECTIVES3_TEST06_3DMG_CSTest09_FAV import *
-#from TESTS.OBJECTIVES3_TEST07_3DTriMG_HTTR_AVS import *
-#from TESTS.OBJECTIVES3_TEST08_3DTriMG_HTTR_FAV import *
-from TESTS.OBJECTIVES3_TEST09_3DMG_Langenbuch_AVS import *
+#from tests.OBJECTIVES3_TEST01_2DMG_BIBLIS_AVS import *
+#from tests.OBJECTIVES3_TEST02_2DMG_BIBLIS_FAV import *
+#from tests.OBJECTIVES3_TEST03_2DTriMG_HTTR2G_AVS import *
+#from tests.OBJECTIVES3_TEST04_2DTriMG_HTTR2G_FAV import *
+#from tests.OBJECTIVES3_TEST05_3DMG_CSTest09_AVS import *
+#from tests.OBJECTIVES3_TEST06_3DMG_CSTest09_FAV import *
+#from tests.OBJECTIVES3_TEST07_3DTriMG_HTTR_AVS import *
+#from tests.OBJECTIVES3_TEST08_3DTriMG_HTTR_FAV import *
+from tests.OBJECTIVES3_TEST09_3DMG_Langenbuch_AVS import *
 
 # Restore the original sys.path
 sys.path = original_sys_path

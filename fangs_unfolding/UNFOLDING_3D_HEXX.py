@@ -27,14 +27,14 @@ from SRC_UNFOLDING_3D_HEXX import *
 original_sys_path = sys.path.copy()
 sys.path.append('../')
 
-#from TEST.TASK3_TEST05a_3DTriMG_HTTR_LVL1_1SRC_AVS import *
-#from TEST.TASK3_TEST05b_2DTriMG_HTTR_LVL1_2SRC_AVS import *
-#from TEST.TASK3_TEST05c_2DTriMG_HTTR_LVL2_1SRC_AVS import *
-#from TEST.TASK3_TEST05d_2DTriMG_HTTR_LVL2_FAV import *
+#from tests.TASK3_TEST05a_3DTriMG_HTTR_LVL1_1SRC_AVS import *
+#from tests.TASK3_TEST05b_2DTriMG_HTTR_LVL1_2SRC_AVS import *
+#from tests.TASK3_TEST05c_2DTriMG_HTTR_LVL2_1SRC_AVS import *
+#from tests.TASK3_TEST05d_2DTriMG_HTTR_LVL2_FAV import *
 
-from TESTS.OBJECTIVES45_TEST07_3DTriMG_HTTR_AVS import *
-#from TESTS.OBJECTIVES45_TEST08_3DTriMG_HTTR_FAV import *
-#from TESTS.OBJECTIVES45_TEST12_3DTriMG_HTTR_AVS3S import *
+from tests.OBJECTIVES45_TEST07_3DTriMG_HTTR_AVS import *
+#from tests.OBJECTIVES45_TEST08_3DTriMG_HTTR_FAV import *
+#from tests.OBJECTIVES45_TEST12_3DTriMG_HTTR_AVS3S import *
 
 # Restore the original sys.path
 sys.path = original_sys_path

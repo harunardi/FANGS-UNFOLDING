@@ -28,16 +28,16 @@ from SRC_UNFOLDING_3D_RECT import *
 original_sys_path = sys.path.copy()
 sys.path.append('../')
 
-#from TESTS.TASK3_TEST04a_3DMG_PWRMOX1_1SRC_AVS import *
-#from TESTS.TASK3_TEST04b_3DMG_PWRMOX1_2SRC_AVS import *
-#from TESTS.TASK3_TEST04c_3DMG_PWRMOX3_1SRC_AVS import *
-#from TESTS.TASK3_TEST04d_2DMG_PWRMOX3_FAV import *
+#from tests.TASK3_TEST04a_3DMG_PWRMOX1_1SRC_AVS import *
+#from tests.TASK3_TEST04b_3DMG_PWRMOX1_2SRC_AVS import *
+#from tests.TASK3_TEST04c_3DMG_PWRMOX3_1SRC_AVS import *
+#from tests.TASK3_TEST04d_2DMG_PWRMOX3_FAV import *
 
-#from TESTS.OBJECTIVES45_TEST05_3DMG_PWRMOX1_AVS import *
-#from TESTS.OBJECTIVES45_TEST06_3DMG_PWRMOX3_FAV import *
-#from TESTS.OBJECTIVES45_TEST11_3DMG_PWRMOX1_AVS3S import *
-#from TESTS.OBJECTIVES45_TEST13_3DMG_Langenbuch_AVS import *
-from TESTS.OBJECTIVES45_TEST14_3DMG_Langenbuch_AVS3S import *
+#from tests.OBJECTIVES45_TEST05_3DMG_PWRMOX1_AVS import *
+#from tests.OBJECTIVES45_TEST06_3DMG_PWRMOX3_FAV import *
+#from tests.OBJECTIVES45_TEST11_3DMG_PWRMOX1_AVS3S import *
+#from tests.OBJECTIVES45_TEST13_3DMG_Langenbuch_AVS import *
+from tests.OBJECTIVES45_TEST14_3DMG_Langenbuch_AVS3S import *
 
 # Restore the original sys.path
 sys.path = original_sys_path
