@@ -1,5 +1,5 @@
-# Dissertation Codes Harun Ardiansyah
-This repository is the code to perform all analysis done in Harun Ardiansyah's Dissertation and related papers
+# General Overview
+FANGS-UNFOLD (Forward, Adjoint, and Neutron Noise General Solver with Unfolding Capabilities) is a tool to perform forward, adjoint, and neutron noise equations. The tool uses multigroup neutron diffusion equation for the basis of energy and angular discretization. It uses box-scheme finite difference for the spatial discretization. This is part of Harun Ardiansyah's dissertation thesis work.
 
 ## How to run the code:
 - Go to SRC folder
@@ -62,11 +62,17 @@ This repository is the code to perform all analysis done in Harun Ardiansyah's D
 - TEST11: HTTR AVS/TV, 3D 2-group, Noise Center/Non-center, Absorber of Variable Strength (AVS) and Travelling Vibration
 - TEST12: HTTR FAV, 2D 2-group, Noise Center/Non-center, Fuel Assembly Vibration (FAV)
 
-## NOTE: Required libraries to run the codes
-    conda create --name noise numpy scipy matplotlib petsc4py -c conda-forge
-    conda install h5py
+## Required Libraries
+    numpy >= 3.10
+    h5py
+    matplotlib
+    petsc4py
+    scipy
+
+  It should be noted that the user must the PETSc that can handle complex numbers. The following is recommended:
+    
     conda install -c conda-forge 'petsc=*=complex*' petsc4py
 
-## End Goals
-- End goal for 2D is to simulate vibration case
-- End goal from 3D is to simulate traveling vibration case
+
+## Note:
+    conda create --name noise numpy scipy h5py matplotlib petsc4py -c conda-forge && conda activate noise && conda install -c conda-forge 'petsc=*=complex*' petsc4py

@@ -1,2 +1,4 @@
 *_subset_residuals.txt
 .DS_Store
+*.h5
+*.json

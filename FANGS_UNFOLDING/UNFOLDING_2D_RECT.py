@@ -28,9 +28,9 @@ from SRC_UNFOLDING_2D_RECT import *
 original_sys_path = sys.path.copy()
 sys.path.append('../')
 
-from INPUTS.OBJECTIVES45_TEST01_2DMG_BIBLIS_AVS import *
-#from INPUTS.OBJECTIVES45_TEST02_2DMG_BIBLIS3_FAV import *
-#from INPUTS.OBJECTIVES45_TEST09_2DMG_BIBLIS_AVS3S import *
+from TESTS.OBJECTIVES45_TEST01_2DMG_BIBLIS_AVS import *
+#from TESTS.OBJECTIVES45_TEST02_2DMG_BIBLIS3_FAV import *
+#from TESTS.OBJECTIVES45_TEST09_2DMG_BIBLIS_AVS3S import *
 
 # Restore the original sys.path
 sys.path = original_sys_path
