@@ -1,0 +1,16 @@
+name: fangs-unfolding
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.13
+  - conda=25.7.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - h5py
+  - petsc4py
+  - petsc[build=complex*]

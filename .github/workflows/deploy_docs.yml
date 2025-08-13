@@ -17,13 +17,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+
+      - name: Install mkdocs-material using pip
+        shell: bash -l {0}
+        run: pip install mkdocs-material
 
       - name: Test that docs build without error
+        shell: bash -l {0}
         if: github.event_name == 'pull_request'
-        run: uv run --extra docs mkdocs build --strict
-
+        run: mkdocs build --strict
 
       - name: Deploy docs to GitHub Pages
+        shell: bash -l {0}
         if: github.event_name == 'push'
-        run: uv run --extra docs mkdocs gh-deploy --strict --force
+        run: mkdocs gh-deploy --strict --force
+
