@@ -31,3 +31,4 @@ jobs:
         shell: bash -l {0}
         if: github.event_name == 'push'
         run: mkdocs gh-deploy --strict --force
+
