@@ -1,6 +1,7 @@
-name: base
+name: fangs-unfolding
 channels:
-  - defaults
+  - conda-forge
+  - nodefaults
 dependencies:
   - python=3.13
   - conda=25.7.0
