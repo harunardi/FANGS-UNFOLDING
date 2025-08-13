@@ -39,6 +39,7 @@ classifiers = [
 Repository = "https://github.com/harunardi/FANGS-UNFOLDING.git"
 Issues = "https://github.com/harunardi/FANGS-UNFOLDING/issues/new"
 
+[project.optional-dependencies]
 docs = [
    "mkdocs-material",
 ]
