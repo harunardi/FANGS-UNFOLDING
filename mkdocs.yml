@@ -1,0 +1,4 @@
+site_name: FANGS-UNFOLDING Package Documentation
+site_url: https://harunardi.github.io/FANGS-UNFOLDING
+theme:
+  name: material
