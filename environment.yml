@@ -14,3 +14,4 @@ dependencies:
   - h5py
   - petsc4py
   - petsc[build=complex*]
+  - mkdocs
