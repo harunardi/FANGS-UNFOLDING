@@ -1,0 +1,18 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - conda=25.7.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-anaconda-telemetry[version='>=0.2.0']
+  - conda-anaconda-tos[version='>=0.2.1']
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda-anon-usage
+  - h5py
+  - petsc4py
+  - petsc[build=complex*]
