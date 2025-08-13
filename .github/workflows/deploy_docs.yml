@@ -22,6 +22,10 @@ jobs:
         with:
           environment-file: environment.yml
 
+      - name: Install mkdocs-material using pip
+        shell: bash -l {0}
+        run: pip install mkdocs-material
+
       - name: Test that docs build without error
         shell: bash -l {0}
         if: github.event_name == 'pull_request'
