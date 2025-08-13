@@ -38,3 +38,7 @@ classifiers = [
 [project.urls]
 Repository = "https://github.com/harunardi/FANGS-UNFOLDING.git"
 Issues = "https://github.com/harunardi/FANGS-UNFOLDING/issues/new"
+
+docs = [
+   "mkdocs-material",
+]
