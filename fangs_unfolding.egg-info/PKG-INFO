@@ -23,6 +23,8 @@ Requires-Dist: pillow>=11.3.0
 Requires-Dist: pip>=25.2
 Requires-Dist: PySide6>=6.9.1
 Requires-Dist: scipy>=1.16.0
+Provides-Extra: docs
+Requires-Dist: mkdocs-material; extra == "docs"
 Dynamic: license-file
 
 # General Overview
