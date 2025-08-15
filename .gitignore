@@ -3,3 +3,6 @@
 *.h5
 *.json
 site/
+*.egg-info
+*.pyc
+__pycache__/
